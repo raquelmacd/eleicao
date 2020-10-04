@@ -1,0 +1,24 @@
+body{
+    align-items: center;
+}
+
+img{
+    width: 30%;
+    margin-left: 35%;
+}
+.midias{
+    text-align: center;
+}
+.midias i {
+    color: black;
+}
+.midias i:hover{
+    color: chartreuse;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
